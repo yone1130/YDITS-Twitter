@@ -1,5 +1,5 @@
 #
-# main.py / YDITS for Twitter with Windows  ver 1.2.4 / yone1130
+# main.py / YDITS for Twitter with Windows  ver 1.2.5 / yone1130
 #
 import os
 from time import sleep
@@ -16,7 +16,7 @@ def put_logo():
   print('                                             ')
   print(' ------------------------------------------- ')
   print('                                             ')
-  print('  YDITS for Twitter with Windows  Ver 1.2.4  ')
+  print('  YDITS for Twitter with Windows  Ver 1.2.5  ')
   print('                                             ')
   print(' ------------------------------------------- ')
   print('                                             ')
@@ -91,7 +91,7 @@ def getData(firstFlag, getType):
 
     global res_NIED
     try:
-      res_NIED = requests.get(url)   ### get
+      res_NIED = requests.get(url, timeout=1.0)   ### get
       if latestState_NIED != 1:
         print('Connection restored at ' + str(DT))
         latestState_NIED = 1
@@ -223,7 +223,7 @@ def getData(firstFlag, getType):
 
     global res_p2p
     try:
-      res_p2p = requests.get(url, params=params)   ### get
+      res_p2p = requests.get(url, params=params, timeout=1.0)   ### get
       if latestState_p2p != 1:
         print('Connection restored at ' + str(DT))
         latestState_p2p = 1

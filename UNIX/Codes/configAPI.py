@@ -1,5 +1,5 @@
 #
-# configAPI.py / YDITS for Twitter with UNIX  ver 1.2.4 / yone1130
+# configAPI.py / YDITS for Twitter with UNIX  ver 1.2.5 / yone1130
 #
 CLIENT = {
     'CONSUMER_KEY': '',
