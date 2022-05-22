@@ -1,5 +1,5 @@
 #
-# main.py / YDITS for Twitter with UNIX  ver 1.2.5 / yone1130
+# main.py / YDITS for Twitter with UNIX  ver 1.2.6 / yone1130
 #
 import os
 from time import sleep
@@ -16,7 +16,7 @@ def put_logo():
   print('                                          ')
   print(' ---------------------------------------- ')
   print('                                          ')
-  print('  YDITS for Twitter with UNIX  Ver 1.2.5  ')
+  print('  YDITS for Twitter with UNIX  Ver 1.2.6  ')
   print('                                          ')
   print(' ---------------------------------------- ')
   print('                                          ')
@@ -285,7 +285,7 @@ def getData(firstFlag, getType):
     _maxScale = data_p2p[0]['earthquake']['maxScale']
 
     global maxScale
-    Scales = {-1: '調査中', 10: '1', 20: '2', 30: '3', 40: '4', 50: '5弱', 55: '5強', 60: '6弱', 65: '6強', 70: '7'}
+    Scales = {-1: '調査中', 10: '1', 20: '2', 30: '3', 40: '4', 45: '5弱', 50: '5強', 55: '6弱', 60: '6強', 70: '7'}
     if _maxScale in Scales:
       maxScale = Scales[_maxScale]
 
