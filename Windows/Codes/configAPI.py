@@ -1,5 +1,7 @@
 #
-# configAPI.py / YDITS for Twitter with Windows  ver 1.2.6 / yone1130
+# configAPI.py | YDITS for Twitter with Windows  ver 1.2.6
+#
+# (c) 2022 よね/Yone
 #
 CLIENT = {
     'CONSUMER_KEY': '',
