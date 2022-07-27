@@ -1,5 +1,7 @@
 #
-# main.py / YDITS for Twitter with Windows  ver 1.2.6 / yone1130
+# main.py | YDITS for Twitter with Windows  ver 1.2.6
+#
+# (c) 2022 よね/Yone
 #
 import os
 from time import sleep
