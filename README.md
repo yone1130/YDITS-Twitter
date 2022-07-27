@@ -1,6 +1,6 @@
 # YDITS for Twitter
 ## 利用規約 / Terms
-このプログラムには利用規約が適用されます。
+**このプログラムには利用規約が適用されます。**
 https://yone1130.github.io/YDITS/terms/
 
 ## 使用上の注意 / Notice to use
